@@ -1,0 +1,72 @@
+
+Fig.2: 
+
+The followings are the fPEPS and DMRG energy persite for Hubbard model at U=8 for 8x8. 
+
+The 1st column is the bond dimension; 
+2nd and 3rd columns are energies from simple update (SU)  and corresponding Monte Carlo sampling error.
+4th and 5th columns are from the gradient optimization (GO).
+
+
+fPEPS energies: 
+
+(1) 8x8 U=8 Ne = 62 (1/32 doping):  fPEPS
+
+D     SUenergy        MCerror        GOenergy        MCerror
+4     -0.50238        3.67E-4        -0.50488        9.26E-5
+6     -0.51573        4.12E-4        -0.51955        7.83E-5
+8     -0.52249        3.02E-4        -0.52576        9.23E-5
+10    -0.52566        2.16E-4        -0.52862        5.21E-5
+12    -0.52759        2.58E-4        -0.52962        7.46E-5
+14    -0.52885        1.16E-4        -0.53054        7.70E-5
+16    -0.52939        1.58E-4        -0.53115        5.97E-5
+18    -0.52981        1.69E-4        -0.53126        6.23E-5
+20    -0.52984        1.13E-4        -0.53140        4.84E-5
+
+
+
+(2) 8x8 U=8 Ne = 56 (1/8 doping) : fPEPS
+
+D     SUenergy        MCerror        GOenergy        MCerror    
+4     -0.61900        2.81E-4        -0.63603        2.49E-4
+6     -0.66435        5.27E-4        -0.67576        2.00E-4
+8     -0.67611        2.91E-4        -0.68670        1.61E-4
+10    -0.68418        4.65E-4        -0.69083        1.07E-4
+12    -0.69023        3.71E-4        -0.69456        9.81E-5
+14    -0.69378        4.28E-4        -0.69696        5.04E-5
+16    -0.69608        2.89E-4        -0.69812        7.61E-5
+18    -0.69715        6.06E-4        -0.69882        6.16E-5
+20    -0.69751        3.27E-4        -0.69928        3.00E-5
+
+
+
+
+DMRG energies: (DW is discarded weight)
+
+(1) 8x8 U=8 Ne = 62 (1/32 doping): SU(2) DMRG
+
+D =    32000 E =  -34.06465807 (total)  -0.53226028 (per-site) DW = 4.16e-05
+D =    28000 E =  -34.05401158 (total)  -0.53209393 (per-site) DW = 4.90e-05
+D =    24000 E =  -34.03980428 (total)  -0.53187194 (per-site) DW = 5.73e-05
+D =    20000 E =  -34.02039726 (total)  -0.53156871 (per-site) DW = 6.81e-05
+D =    16000 E =  -33.99242070 (total)  -0.53113157 (per-site) DW = 8.26e-05
+D = infinity E =  -34.14459730 (+/- 0.01811714, total)
+                   -0.53350933 (+/- 0.00028308, per-site)
+
+
+
+(2) 8x8 U=8 Ne = 56 (1/8 doping): SU(2) DMRG
+
+D =    32000 E =  -44.69741191 (total)  -0.69839706 (per-site) DW = 9.57e-05
+D =    28000 E =  -44.67515964 (total)  -0.69804937 (per-site) DW = 1.04e-04
+D =    24000 E =  -44.64734184 (total)  -0.69761472 (per-site) DW = 1.10e-04
+D =    20000 E =  -44.61144453 (total)  -0.69705382 (per-site) DW = 1.19e-04
+D =    16000 E =  -44.56279032 (total)  -0.69629360 (per-site) DW = 1.32e-04
+D = infinity E =  -45.08713801 (+/- 0.08239567, total)
+                   -0.70448653 (+/- 0.00128743, per-site)
+
+
+
+
+
+
